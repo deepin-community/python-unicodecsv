@@ -1,0 +1,63 @@
+python-unicodecsv (0.14.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Thomas Bechtold ]
+  * Remove myself from Uploaders; Closes: #892681
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #938239
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 15 Dec 2019 15:18:24 -0500
+
+python-unicodecsv (0.14.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- W. Martin Borgert <debacle@debian.org>  Mon, 30 Nov 2015 21:28:21 +0000
+
+python-unicodecsv (0.13.0-2) unstable; urgency=low
+
+  * Add python3-setuptools build-dep (Closes: #795585), thanks Chris Lamb.
+
+ -- W. Martin Borgert <debacle@debian.org>  Sat, 15 Aug 2015 19:34:33 +0000
+
+python-unicodecsv (0.13.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Moved repo to git
+  * New watch file, thanks to bartm
+  * Add Python 3 package
+  * Bump standards version, no changes
+  * Fix license short name
+
+ -- W. Martin Borgert <debacle@debian.org>  Mon, 03 Aug 2015 21:34:56 +0000
+
+python-unicodecsv (0.9.4-1) unstable; urgency=low
+
+  [ Jakub Wilk ]
+  * Use canonical URIs for Vcs-* fields.
+
+  [ Thomas Bechtold ]
+  * New upstream release.
+  * debian/patches/01fix_array_float_repr.diff: Removed, applied upstream.
+  * debian/python-unicodecsv.docs: Replace README with README.rst.
+  * debian/control:
+    - Bump Standards-Version to 3.9.4.
+    - Add me to Uploaders.
+    - Build-Depends on python-unittest2 (>= 0.5.1) according to setup.py.
+
+ -- Thomas Bechtold <thomasbechtold@jpberlin.de>  Tue, 21 May 2013 16:15:25 +0200
+
+python-unicodecsv (0.9.0-1) unstable; urgency=low
+
+  [ Thomas Bechtold <thomasbechtold@jpberlin.de>]:
+  * Initial Release (Closes: #669678)
+
+ -- W. Martin Borgert <debacle@debian.org>  Mon, 14 May 2012 18:41:11 +0000
